@@ -29,7 +29,7 @@ module.exports = [
   {
     path: 'kcoin',
     prefix: 'kcoin-',
-    baseUrl: 'https://emotion-new.acs.pw/aru/kcoin',
+    baseUrl: 'https://emotion-new.acs.pw/kcoin/image',
     twikoo: {
       name: `酷币`
     },
@@ -40,7 +40,7 @@ module.exports = [
   {
     path: 'bili_tv',
     prefix: 'btv-',
-    baseUrl: 'https://emotion-new.acs.pw/aru/bili_tv',
+    baseUrl: 'https://emotion-new.acs.pw/bili_tv/image',
     twikoo: {
       name: `哔哩TV`
     },
