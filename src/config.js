@@ -13,6 +13,13 @@ module.exports = [
     artalk: {
       // artalk 生成的tab栏名称
       name: `Heo`
+    },
+    waline: {
+      name: 'Heo',
+      icon: '害羞.png'
+    },
+    discuss: {
+      name: `Heo`
     }
   },
   {
@@ -23,6 +30,13 @@ module.exports = [
       name: `阿鲁`
     },
     artalk: {
+      name: `阿鲁`
+    },
+    waline: {
+      name: '阿鲁',
+      icon: '001.gif'
+    },
+    discuss: {
       name: `阿鲁`
     }
   },
@@ -35,6 +49,13 @@ module.exports = [
     },
     artalk: {
       name: `酷币`
+    },
+    waline: {
+      name: '酷币',
+      icon: 'coolb1.png'
+    },
+    discuss: {
+      name: `酷币`
     }
   },
   {
@@ -45,6 +66,13 @@ module.exports = [
       name: `哔哩TV`
     },
     artalk: {
+      name: `哔哩TV`
+    },
+    waline: {
+      name: '哔哩TV',
+      icon: '点赞.gif'
+    },
+    discuss: {
       name: `哔哩TV`
     }
   }

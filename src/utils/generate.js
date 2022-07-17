@@ -60,5 +60,48 @@ function artalk(nameList, config) {
   return result
 }
 
-const generateUtils = { twikoo, valine, artalk }
+/**
+ * 生成waline格式json文件
+ * @param {Array<string>} nameList
+ * @param {{baseUrl:string,prefix:string}} 配置对象
+ */
+function waline(nameList, config) {
+  const result = {
+    name: config?.waline?.name,
+    prefix: '',
+    folder: config.baseUrl,
+    type: '',
+    icon: config?.waline?.icon || 'cute',
+    items: []
+  }
+  nameList.forEach((item) => {
+    result.items.push(item)
+  })
+  return result
+}
+
+/**
+ * 生成discuss格式json文件
+ * @param {Array<string>} nameList
+ * @param {{baseUrl:string,prefix:string}} 配置对象
+ */
+function discuss(nameList, config) {
+  const key = config.discuss.name
+  const result = {
+    [key]: {
+      type: 'image',
+      items: []
+    }
+  }
+  nameList.forEach((name) => {
+    result[key].items.push({
+      [`${config.prefix}${getName(
+        name
+      )}`]: `<img src="${config.baseUrl}/${name}">`
+    })
+  })
+  return result
+}
+
+const generateUtils = { twikoo, valine, waline, artalk, discuss }
 module.exports = generateUtils
