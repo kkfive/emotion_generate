@@ -67,11 +67,11 @@ function artalk(nameList, config) {
  */
 function waline(nameList, config) {
   const result = {
-    name: config?.waline?.name,
+    name: config.waline.name,
     prefix: '',
     folder: config.baseUrl,
     type: '',
-    icon: config?.waline?.icon || 'cute',
+    icon: config.waline.icon || 'cute',
     items: []
   }
   nameList.forEach((item) => {
