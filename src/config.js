@@ -75,5 +75,23 @@ module.exports = [
     discuss: {
       name: `哔哩TV`
     }
+  },
+  {
+    path: 'huaji',
+    prefix: 'huaji-',
+    baseUrl: 'https://emotion-new.acs.pw/huaji/image',
+    twikoo: {
+      name: `滑稽`
+    },
+    artalk: {
+      name: `滑稽`
+    },
+    waline: {
+      name: '滑稽',
+      icon: '啊哈哈.jpg'
+    },
+    discuss: {
+      name: `滑稽`
+    }
   }
 ]
