@@ -93,5 +93,59 @@ module.exports = [
     discuss: {
       name: `滑稽`
     }
+  },
+  {
+    path: 'parrot',
+    prefix: 'parrot-',
+    baseUrl: 'https://emotion-new.acs.pw/parrot/image',
+    twikoo: {
+      name: `小鹦鹉`
+    },
+    artalk: {
+      name: `小鹦鹉`
+    },
+    waline: {
+      name: '小鹦鹉',
+      icon: '摇椅.gif'
+    },
+    discuss: {
+      name: `小鹦鹉`
+    }
+  },
+  {
+    path: 'other',
+    prefix: 'other-',
+    baseUrl: 'https://emotion-new.acs.pw/other/image',
+    twikoo: {
+      name: `其他`
+    },
+    artalk: {
+      name: `其他`
+    },
+    waline: {
+      name: '其他',
+      icon: '00015.gif'
+    },
+    discuss: {
+      name: `其他`
+    }
+  },
+  {
+    path: 'blob',
+    prefix: 'blob-',
+    baseUrl: 'https://emotion-new.acs.pw/blob/image',
+    twikoo: {
+      name: `Blob`
+    },
+    artalk: {
+      name: `Blob`
+    },
+    waline: {
+      name: 'Blob',
+      icon: 'blob.png'
+    },
+    discuss: {
+      name: `Blob`
+    }
   }
 ]
