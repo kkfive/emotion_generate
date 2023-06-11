@@ -124,7 +124,7 @@ module.exports = [
     },
     waline: {
       name: '其他',
-      icon: '00015.gif'
+      icon: '00015.jpg'
     },
     discuss: {
       name: `其他`
